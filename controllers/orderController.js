@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECERET_KEY)
 // Placing user order for frontend
 
 export const placeOrder = async (req, res) => {
-    const frontend_url = 'http://localhost:5173';
+    const frontend_url = 'https://delivery-website-admin.netlify.app';
     try {
         const newOrder = new orderModel({
             userId: req.body.userId,
