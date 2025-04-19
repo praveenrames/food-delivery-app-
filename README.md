@@ -1,0 +1,1 @@
+ * "Tomato" is a full-stack web application designed for online food ordering, leveraging the MERN stack to provide a seamless and intuitive user experience. The platform includes comprehensive features for both users and administrators, ensuring efficient food ordering and management processes.
